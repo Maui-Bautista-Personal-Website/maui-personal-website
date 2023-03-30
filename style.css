@@ -168,7 +168,7 @@ a {
   position: relative;
   font-size: 17px;
   border-radius: 30px;
-  background: #ffffff;
+  background-color: rgb(230, 213, 213);
   text-transform: uppercase;
 }
 
@@ -239,7 +239,7 @@ a {
 .aboutme {
   color: firebrick;
 }
-/* ================Portfolio page ============================*/
+/* ================Portfolio page third page============================*/
 /* ================background Image============================ */
 
 .portfolio-img {
