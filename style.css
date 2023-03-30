@@ -155,7 +155,7 @@ a {
   display: inline-block;
 }
 
-.btn-appointment {
+.btn-about {
   background-color: rgb(230, 213, 213);
   position: relative;
   z-index: 1;
@@ -178,7 +178,7 @@ a {
   background-color: #f63854;
 }
 
-.btn-appointment:hover {
+.btn-about:hover {
   color: #f6eeef;
   background: red;
   border: 1px dotted #f63854;
@@ -195,3 +195,5 @@ a {
   z-index: 2;
   border-radius: 200px;
 }
+
+/* ================about page====================*/
