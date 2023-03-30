@@ -6,7 +6,7 @@
 }
 
 /*============Background=====================*/
-.social {
+.social .aboutme {
   position: relative;
 }
 .social {
@@ -185,6 +185,20 @@ a {
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
 }
 
+.btn-4polio {
+  background-color: rgb(230, 213, 213);
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn-4polio:hover {
+  color: #ffffff;
+  border-color: #f63854;
+  background-color: #f63854;
+}
+
 /*================Profile Pic & Name Section==============*/
 
 .maui {
@@ -196,4 +210,22 @@ a {
   border-radius: 200px;
 }
 
-/* ================about page====================*/
+/* ================about page ============================*/
+
+/* =================about background================== */
+
+.btn-b2mp {
+  background-color: rgb(230, 213, 213);
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn-b2mp:hover {
+  color: #ffffff;
+  border-color: #f63854;
+  background-color: #f63854;
+}
+
+/* ================Portfolio page ============================*/
