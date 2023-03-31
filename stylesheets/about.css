@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.about-img {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url(../assets/backgroud/mauisitting.jpeg);
+  padding: 20px 8%;
+  background-size: 100%;
+}
+/* ====================Buttons========================= */
+a {
+  text-decoration: none;
+}
+.btn {
+  margin-top: 15px;
+  font-size: 14px;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-weight: 400;
+  color: rgb(251, 6, 6);
+  border-radius: 30px;
+  transition: all 0.2s linear;
+  -webkit-transition: all o.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  display: inline-block;
+}
+
+.btn-4polio {
+  background-color: rgb(230, 213, 213);
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn-4polio:hover {
+  color: #ffffff;
+  border-color: #f63854;
+  background-color: #f63854;
+}
+
+.btn-b2mp {
+  background-color: rgb(230, 213, 213);
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn-b2mp:hover {
+  color: #ffffff;
+  border-color: #f63854;
+  background-color: #f63854;
+}
