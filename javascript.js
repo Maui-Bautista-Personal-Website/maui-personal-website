@@ -1,1 +1,1 @@
-alert("This will take you to another webpage, would you like to continue?");
+alert("This will take you to my Portfolio, would you like to continue?");
