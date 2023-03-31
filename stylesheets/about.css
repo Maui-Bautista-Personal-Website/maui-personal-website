@@ -13,6 +13,27 @@
   padding: 20px 8%;
   background-size: 100%;
 }
+
+.west {
+  display: flex;
+}
+.flag {
+  width: 150px;
+  height: 150px;
+}
+.rushmore {
+  width: 150px;
+  height: 150px;
+}
+.canada {
+  width: 150px;
+  height: 150px;
+}
+
+.west {
+  list-style: none;
+  color: #f63854;
+}
 /* ====================Buttons========================= */
 a {
   text-decoration: none;
