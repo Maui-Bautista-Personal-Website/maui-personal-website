@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ===================logo============== */
+
+nav {
+  display: flex;
+  width: 84%;
+  padding: 15px;
+  align-items: center;
+  justify-content: right;
+  overflow-x: hidden;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+}
+.facebook {
+  width: 30px;
+}
+
+.instagram {
+  width: 30px;
+}
+.tiktok {
+  width: 30px;
+}
+.github {
+  width: 30px;
+}
+.linkedin {
+  width: 30px;
+}
+
+/* =================buttons============= */
+
+a {
+  text-decoration: none;
+}
+.btn {
+  margin-top: 15px;
+  font-size: 14px;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-weight: 400;
+  color: rgb(251, 6, 6);
+  border-radius: 30px;
+  transition: all 0.2s linear;
+  -webkit-transition: all o.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  display: inline-block;
+}
+.btn-b2mp {
+  background-color: rgb(230, 213, 213);
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn-b2mp:hover {
+  color: #ffffff;
+  border-color: #f63854;
+  background-color: #f63854;
+}
+
+.btn-about {
+  background-color: rgb(230, 213, 213);
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn-about:hover {
+  color: #f6eeef;
+  background: red;
+  border: 1px dotted #f63854;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+}

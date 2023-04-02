@@ -14,7 +14,7 @@ nav {
   align-items: center;
   justify-content: right;
   overflow-x: hidden;
-  box-shadow: 0 0 3px #ab8e8e;
+
 }
 nav ul li {
   display: inline-block;
@@ -45,8 +45,8 @@ nav ul li a {
 /* /* pictures */
 
 /*===================== great outdoors====================== */
-html,
-body {
+/* html, */
+body{
   width: 100%;
   height: 100%;
   display: flex;
@@ -87,8 +87,8 @@ body {
   height: 100%;
   background: linear-gradient(
     to bottom,
-    rgba(243, 3, 3, 0.5),
-    rgb(201, 129, 61)
+    rgba(35, 253, 1, 0.5),
+    rgb(165, 202, 113)
   );
   z-index: 2;
   transition: 0.5s all;

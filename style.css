@@ -205,12 +205,12 @@ a {
   border-color: #f63854;
   background-color: #f63854;
 }
-
+/* 
 .aboutme {
   color: firebrick;
-}
-/* ================Portfolio page third page============================*/
-/* ================background Image============================ */
+} */
+/* ================Portfolio page third page============================
+/* ================background Image============================ 
 
 .portfolio-img {
   width: 100%;
@@ -224,3 +224,4 @@ a {
 .port-text {
   color: red;
 }
+*/
