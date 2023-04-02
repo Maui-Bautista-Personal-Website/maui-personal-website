@@ -9,7 +9,6 @@ body {
   background-image: url(../assets/backgroud/sunset.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  flex-wrap: nowrap;
 }
 /* ===================logo============== */
 
