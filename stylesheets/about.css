@@ -113,7 +113,8 @@ nav ul li {
   transform: relativeY(0px);
 }
 
-h1 {
+h1,
+p {
   color: #fff;
 }
 .card .info h1 {
