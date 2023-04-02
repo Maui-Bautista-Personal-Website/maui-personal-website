@@ -142,9 +142,10 @@ a {
 }
 
 .btn-resume:hover {
-  color: #ffffff;
-  border-color: #f63854;
-  background-color: #f63854;
+  color: #f6eeef;
+  background: red;
+  border: 1px dotted #f63854;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
 }
 
 .btn-about:hover {
@@ -163,9 +164,10 @@ a {
 }
 
 .btn-4polio:hover {
-  color: #ffffff;
-  border-color: #f63854;
-  background-color: #f63854;
+  color: #f6eeef;
+  background: red;
+  border: 1px dotted #f63854;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
 }
 
 /*================Profile Pic & Name Section==============*/
