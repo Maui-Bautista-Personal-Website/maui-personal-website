@@ -36,8 +36,6 @@ nav ul li {
   padding: 10px;
 }
 
-nav ul li a {
-}
 .facebook {
   width: 30px;
 }
@@ -72,6 +70,7 @@ nav ul li a {
     rgba(255, 0, 0, 0.916),
     rgba(195, 0, 255, 0.921)
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
