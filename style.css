@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
 /* ===================main page=================== */
@@ -14,8 +13,8 @@
   background-attachment: fixed;
   background-image: linear-gradient(
       to right,
-      rgba(162, 162, 155, 0.55),
-      rgba(72, 81, 162, 0.638)
+      rgba(162, 162, 155, 0.761),
+      rgba(72, 81, 162, 0.799)
     ),
     url(assets/backgroud/amazon.jpeg);
   padding: 20px 8%;
@@ -25,7 +24,7 @@
 /* ====================social media logo=================== */
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   margin: auto;
 }
 
@@ -58,7 +57,6 @@ nav ul li {
 .head1 {
   max-width: 800px;
   padding-left: 5%;
-  /* color: rgb(249, 244, 244); */
   text-align: left;
 }
 .head1 h1 {
@@ -67,8 +65,8 @@ nav ul li {
   line-height: 60px;
   margin-bottom: 50px;
   background: -webkit-linear-gradient(
-    rgba(255, 0, 0, 0.916),
-    rgba(195, 0, 255, 0.921)
+    rgba(0, 30, 255, 0.976),
+    rgba(255, 0, 98, 0.921)
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -80,8 +78,16 @@ nav ul li {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 10%;
+  padding: 0;
   font-display: bold;
+  margin-top: 300px;
+}
+
+.maui {
+  width: 130%;
+  max-width: 450px;
+  position: relative;
+  border-radius: 200px;
 }
 
 .head1 span {
@@ -171,12 +177,3 @@ a {
 }
 
 /*================Profile Pic & Name Section==============*/
-
-.maui {
-  height: 400px;
-  width: 130%;
-  max-width: 450px;
-  position: relative;
-  /* z-index: 2; */
-  border-radius: 200px;
-}
