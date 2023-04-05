@@ -12,15 +12,16 @@ body {
 }
 /* ===================logo============== */
 .navigation {
-  width: 500px;
+  justify-content: center;
+  display: flex;
 }
 
 nav {
   display: flex;
   /* padding: 15px; */
-  align-items: center;
-  justify-content: right;
-  overflow-x: hidden;
+  /* align-items: center; */
+  justify-content: center;
+  /* overflow-x: hidden; */
 }
 nav ul li {
   display: inline-block;
