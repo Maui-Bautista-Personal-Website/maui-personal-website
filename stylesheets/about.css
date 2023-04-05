@@ -11,36 +11,33 @@ body {
   color: #fff;
 }
 
+/*===================== great outdoors====================== */
+#head {
+  justify-content: center;
+  display: flex;
+  background-color: #740f0f;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 /* ===================logo============== */
 
 nav {
   display: flex;
-  width: 84%;
-  padding: 15px;
-  align-items: center;
-  justify-content: right;
-  overflow-x: hidden;
+  justify-content: center;
 }
 nav ul li {
   display: inline-block;
   list-style: none;
   text-decoration: none;
-  padding: 10px 20px;
+  margin: 0;
 }
 
-.facebook {
-  width: 30px;
-}
-
-.instagram {
-  width: 30px;
-}
-.tiktok {
-  width: 30px;
-}
-.github {
-  width: 30px;
-}
+.facebook,
+.instagram,
+.tiktok,
+.github,
 .linkedin {
   width: 30px;
 }
@@ -48,25 +45,6 @@ nav ul li {
 a {
   text-decoration: none;
 }
-
-/*===================== great outdoors====================== */
-div,
-.head {
-  border-style: solid #fff;
-  border: 2px;
-}
-/* h1,
-h2 {
-  color: #fff;
-}
-h1 {
-  margin-left: 40%;
-}
-h2 {
-  margin: 38%;
-  margin-top: 20px;
-  margin-bottom: 5px;
-} */
 
 /* ====================pictures===================== */
 .wrapper {
@@ -216,6 +194,21 @@ h2 {
 }
 
 .btn-b2mp:hover {
+  color: #f6eeef;
+  background: red;
+  border: 1px dotted #f63854;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+}
+
+.btn-about {
+  background-color: rgb(230, 213, 213);
+  position: relative;
+  z-index: 1;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.btn-about:hover {
   color: #f6eeef;
   background: red;
   border: 1px dotted #f63854;
