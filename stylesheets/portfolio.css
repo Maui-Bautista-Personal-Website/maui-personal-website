@@ -10,6 +10,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*===================== great outdoors====================== */
+#head {
+  justify-content: center;
+  display: flex;
+  background-color: #740f0f;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 /* ===================logo============== */
 .navigation {
   justify-content: center;

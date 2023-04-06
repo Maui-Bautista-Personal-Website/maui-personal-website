@@ -1,2 +1,2 @@
-let welcome = "Hi!,Welcome to my webpage!";
+let welcome = "Hi!,Welcome to my Homepage!";
 alert(welcome);
