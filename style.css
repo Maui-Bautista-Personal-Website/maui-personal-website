@@ -178,4 +178,8 @@ a {
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
 }
 
+.content {
+  max-width: 100%;
+  min-width: 75%;
+}
 /*================Profile Pic & Name Section==============*/
